@@ -431,7 +431,83 @@ main,section
     line-height: 1.3em;
 }
 
-/* Sección 5 */
+/* Sección 5 - Projects - Menu */
+.s5contenedor1M, .s5contenedor2M
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px; /* Espacio entre contenedores */
+}
+.s5c1M 
+{
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
+}
+
+.s5contenedor2M {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.s5c2M-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.s5c2M-col {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 10px;
+}
+
+.img-category {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.img-category:hover {
+    transform: scale(1.05);
+}
+
+.category-title {
+    font-family: Noto Sans;
+    font-size: 1.2em;
+    color: rgb(25, 129, 162);
+    font-weight: bold;
+}
+
+.s5c2M-col a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.s5c2M-col a:hover {
+    opacity: 0.9;
+}
+
+/* Responsive para dispositivos móviles */
+@media screen and (max-width: 767px) {
+    .s5c2M-col {
+        flex: 0 0 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+/* Sección 5 - Projects - Data Analysis */
 .s5contenedor1, .s5contenedor2, .s5contenedor3, .s5contenedor4 , .s5contenedor5 , .s5contenedor6
 {
     display: flex;
@@ -517,7 +593,7 @@ main,section
     padding: 10px;
 }
 
-/* Sección 6 */
+/* Sección 6 - Contact */
 .s6contenedor1, .s6contenedor2, .s6contenedor3, .s6contenedor4 
 {
     display: flex;
@@ -557,7 +633,7 @@ main,section
     padding: 1.2em;
 }
 
-/* Sección 7 */
+/* Sección 7 - Footer */
 .s7contenedor1 
 {
     display: flex;
@@ -573,6 +649,94 @@ main,section
     text-align: center;
     font-size: 1.7em;
     margin-bottom: 3em;
+}
+
+/* Sección 8 Project - Data Enginering*/
+.s8contenedor1, .s8contenedor2, .s8contenedor3, .s8contenedor4
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px; /* Espacio entre contenedores */
+}
+.s8c1 
+{
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
+}
+
+.s8c2izq 
+{
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+.s8c2dcha 
+{
+    flex: 0 0 75%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.s8c3izq 
+{
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+.s8c3dcha 
+{
+    flex: 0 0 75%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.s8c4izq 
+{
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+.s8c4dcha 
+{
+    flex: 0 0 75%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* Sección 9 Projects - Machine Learning*/
+.s9contenedor1, .s9contenedor2
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px; /* Espacio entre contenedores */
+}
+.s9c1 
+{
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
+}
+
+.s9c2izq 
+{
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+.s9c2dcha 
+{
+    flex: 0 0 75%;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 /* Dispositivos moviles */
