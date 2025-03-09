@@ -747,12 +747,18 @@ main,section
         display: block; /* Mostra o ícone do menu */
     }
 
+    .img-category 
+    {
+        max-width: 180px;
+        height: auto;
+    }
+
     .navbar 
     {
         display: none; /* Esconde a navbar na versão mobile */
     }
 
-    .c1izq, .c1dcha, .c3izq, .c3dcha, .s1c3izq, .s1c3dcha, .s2c2izq, .s2c2dcha, .s3c2izq, .s3c2dcha, .s4c2izq, .s4c2dcha, .s4c3izq, .s4c3dcha, .s5c2izq, .s5c2dcha, .s5c3izq, .s5c3dcha, .s5c4izq, .s5c4dcha, .s6c1, .s6c2, .s6c3, .s6c4, .s7c1 
+    .c1izq, .c1dcha, .c3izq, .c3dcha, .s1c3izq, .s1c3dcha, .s2c2izq, .s2c2dcha, .s3c2izq, .s3c2dcha, .s4c2izq, .s4c2dcha, .s4c3izq, .s4c3dcha, .s5c2izq, .s5c2dcha, .s5c3izq, .s5c3dcha, .s5c4izq, .s5c4dcha, .s5c5izq, .s5c5dcha, .s5c6izq, .s5c6dcha, .s8c2izq, .s8c2dcha,.s8c3izq, .s8c3dcha, .s8c4izq, .s8c4dcha, .s9c2izq, .s9c2dcha,.s6c1, .s6c2, .s6c3, .s6c4, .s7c1 
     {
         flex: 0 0 100%;
         font-size: 1em;
